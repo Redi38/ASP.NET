@@ -1,0 +1,17 @@
+﻿CREATE DATABASE textsettingsdb;
+
+USE textsettingsdb;
+
+CREATE TABLE TextStyles (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    BackgroundImage VARCHAR(255),
+    BlockWidth VARCHAR(50),
+    BlockMargin VARCHAR(50)
+);
+
+-- Додаємо тестові стилі
+INSERT INTO TextStyles (BackgroundImage, BlockWidth, BlockMargin)
+VALUES 
+('background1.jpg', '120%', '10px'),
+('background2.jpg', '265%', '15px'),
+('background3.jpg', '100%', '20px');

@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Головна";
+}
+
+<h2>Налаштуйте текст</h2>
+
+<form method="post" asp-action="Display">
+    <label>Перший абзац:</label>
+    <input type="text" name="paragraph1" class="form-control" required />
+
+    <label>Другий абзац:</label>
+    <input type="text" name="paragraph2" class="form-control" required />
+
+    <label>Третій абзац:</label>
+    <input type="text" name="paragraph3" class="form-control" required />
+
+    <label>Колір тексту:</label>
+    <input type="color" name="textColor" class="form-control" />
+
+    <label>Розмір шрифту (наприклад, 20px):</label>
+    <input type="text" name="fontSize" class="form-control" />
+
+    <label>Стиль шрифту:</label>
+    <select name="fontStyle" class="form-control">
+        <option value="normal">Звичайний</option>
+        <option value="italic">Курсив</option>
+        <option value="bold">Жирний</option>
+    </select>
+
+    <label>Вирівнювання тексту:</label>
+    <select name="textAlign" class="form-control">
+        <option value="left">Ліворуч</option>
+        <option value="center">По центру</option>
+        <option value="right">Праворуч</option>
+    </select>
+
+    <button type="submit" class="btn btn-primary mt-3">Відобразити</button>
+</form>

@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Enter Rows";
+}
+
+<h2 class="centered-heading">Enter Number of Rows</h2>
+
+<!-- Форма для введення кількості рядків -->
+<form method="post" action="/Home/GenerateTable" class="form-container">
+    <input type="number" name="rows" class="form-control input-small" required min="1" />
+    <button type="submit" class="btn btn-primary mt-2">Generate Table</button>
+</form>

@@ -1,0 +1,53 @@
+/* Вирівнювання форми по центру */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Компактне поле введення */
+.input-small {
+    width: 130px; /* Зменшений розмір */
+    text-align: center;
+}
+
+/* Стилізація таблиці (шахова дошка) */
+.chess-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+    /* Стилі для комірок таблиці */
+    .chess-table td {
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+/* Білі та чорні клітинки */
+.white-cell {
+    background-color: #fff;
+}
+
+.black-cell {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Центрування тексту заголовків */
+.centered-heading {
+    text-align: center;
+}
+
+/* Оформлення підвалу (footer) */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}

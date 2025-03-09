@@ -1,0 +1,15 @@
+CREATE DATABASE imagesize2;
+
+USE imagesize2;
+
+CREATE TABLE Images (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Url NVARCHAR(255) NOT NULL,
+    Width INT NOT NULL,
+    Height INT NOT NULL
+);
+
+INSERT INTO Images (Url, Width, Height) VALUES
+('', 120, 120),
+('', 300, 120),
+('', 90, 60);

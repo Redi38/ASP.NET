@@ -1,0 +1,18 @@
+CREATE DATABASE imagesize;
+
+USE imagesize;
+
+CREATE TABLE Images (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Url NVARCHAR(255) NOT NULL,
+    Width INT NOT NULL,
+    Height INT NOT NULL
+);
+
+-- Додаємо розміри зображень згідно з макетом
+INSERT INTO Images (Url, Width, Height) VALUES
+('', 100, 150),
+('', 80, 60),
+('', 100, 150),
+('', 80, 60),
+('', 100, 150);

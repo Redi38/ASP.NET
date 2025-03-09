@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Page2\" />
+    <Folder Include="Views\Page3\" />
+    <Folder Include="Views\Page4\" />
+    <Folder Include="Views\Page5\" />
+  </ItemGroup>
+
+</Project>

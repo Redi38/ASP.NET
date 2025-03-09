@@ -1,0 +1,29 @@
+/* Галерея зображень: центроване відображення */
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Оформлення зображень */
+img {
+    border: 1px solid black;
+}
+
+/* Центровані заголовки */
+.centered-heading {
+    text-align: center;
+}
+
+/* Центрування форми */
+.image-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+    /* Вирівнюємо текст-підказку (placeholder) по лівому краю */
+    .image-form input::placeholder {
+        text-align: left;
+    }

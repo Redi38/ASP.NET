@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Результат";
+    var paragraphs = ViewBag.Paragraphs as List<string>;
+    var styles = ViewBag.Styles as List<Task_1.Models.TextStyle>;
+}
+
+@if (styles != null && styles.Count >= 3)
+{
+    <div class="container">
+        @for (int i = 0; i < 3; i++)
+        {
+            <div class="text-block" style="
+                font-size:@ViewBag.FontSize;
+                color:@ViewBag.TextColor;
+                text-align:@ViewBag.TextAlign;
+                background-image:url('/images/@styles[i].BackgroundImage');
+                width:@styles[i].BlockWidth;
+                margin:@styles[i].BlockMargin;
+                @(ViewBag.FontStyle == "bold" ? "font-weight:bold;" : "font-style:" + ViewBag.FontStyle + ";")">
+                <p>@paragraphs[i]</p>
+            </div>
+        }
+    </div>
+}

@@ -1,0 +1,16 @@
+﻿@model List<string>
+
+<h2 class="centered-heading">Image Form</h2>
+
+<!-- Форма для введення 5 URL зображень -->
+<form method="post" asp-action="Submit" class="image-form text-center">
+    @for (int i = 0; i < 5; i++)
+    {
+        <div class="mb-3">
+            <input type="text" name="urls" class="form-control"
+                   placeholder="Image URL @(i + 1)" required />
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary">Generate</button>
+</form>

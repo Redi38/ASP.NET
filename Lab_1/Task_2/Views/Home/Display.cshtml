@@ -1,0 +1,8 @@
+﻿@model List<ImageModel>
+<h2 class="centered-heading">Image Gallery</h2>
+<div class="gallery">
+    @foreach (var image in Model)
+    {
+        <img src="@image.Url" width="@image.Width" height="@image.Height" />
+    }
+</div>

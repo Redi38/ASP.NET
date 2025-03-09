@@ -1,0 +1,10 @@
+CREATE DATABASE columns;
+
+USE columns;
+
+CREATE TABLE ColumnCounts (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Count INT NOT NULL
+);
+
+INSERT INTO ColumnCounts (Count) VALUES (8);
