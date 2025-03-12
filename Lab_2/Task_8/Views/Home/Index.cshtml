@@ -1,0 +1,65 @@
+﻿@model Task_8.Models.SelectionViewModel
+
+@{
+    ViewData["Title"] = "Вибір міста та транспорту";
+}
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+
+    <div class="container">
+        <h3 class="text-center">Виберіть місто та транспорт</h3>
+        <form method="post" asp-action="Index">
+            <div class="row">
+                <!-- Вибір міста -->
+                <div class="col-md-6">
+                    <label class="form-label text-start d-block">Виберіть місто:</label>
+                    <div class="radio-group">
+                        <label>Харків <input type="radio" name="City" value="Харків" @(Model.City == "Харків" ? "checked" : "")></label>
+                        <label>Київ <input type="radio" name="City" value="Київ" @(Model.City == "Київ" ? "checked" : "")></label>
+                        <label class="text-end">Одеса <input type="radio" name="City" value="Одеса" @(Model.City == "Одеса" ? "checked" : "")></label>
+                        <label class="text-end">Запоріжжя <input type="radio" name="City" value="Запоріжжя" @(Model.City == "Запоріжжя" ? "checked" : "")></label>
+                    </div>
+                </div>
+
+                <!-- Вибір транспорту -->
+                <div class="col-md-6">
+                    <label class="form-label text-start d-block">Виберіть транспорт:</label>
+                    <div class="radio-group">
+                        <label class="text-end">Автобус <input type="radio" name="Transport" value="Автобус" @(Model.Transport == "Автобус" ? "checked" : "")></label>
+                        <label class="text-end">Потяг <input type="radio" name="Transport" value="Потяг" @(Model.Transport == "Потяг" ? "checked" : "")></label>
+                        <label class="text-end">Літак <input type="radio" name="Transport" value="Літак" @(Model.Transport == "Літак" ? "checked" : "")></label>
+                        <label class="invisible">Невидимий <input type="radio" name="Transport" disabled></label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6 text-center">
+                    <button type="submit" class="btn btn-primary w-75">Вибрати</button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <button type="submit" class="btn btn-secondary w-75" formmethod="post" formaction="/Home/Reset">Відмовитися</button>
+                </div>
+            </div>
+        </form>
+
+        @if (Model.ShowSelection)
+        {
+            <div class="alert alert-success mt-3">
+                <strong>Ви обрали:</strong> @Model.City, @Model.Transport
+            </div>
+        }
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+    .radio-group label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        background: rgba(240, 240, 240, 0.9);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .radio-group label.text-end {
+            justify-content: flex-end;
+            text-align: right;
+        }
+
+    .radio-group input {
+        margin-left: 10px;
+    }
+
+.btn {
+    margin-top: 10px;
+}

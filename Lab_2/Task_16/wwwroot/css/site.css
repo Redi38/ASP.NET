@@ -1,0 +1,33 @@
+body {
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    width: 50%;
+}

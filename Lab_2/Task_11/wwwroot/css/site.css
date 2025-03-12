@@ -1,0 +1,84 @@
+body {
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.interests-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.interest-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    padding: 3px 8px;
+    background: rgba(230, 230, 230, 0.9);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.label-sport {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.label-travel {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.label-crafting {
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.label-drawing {
+    margin-left: 55px;
+    margin-top: 5px;
+}
+
+.checkbox-sport {
+    margin-right: 70px;
+}
+
+.checkbox-travel {
+    margin-right: 0px;
+}
+
+.checkbox-crafting {
+    margin-right: 110px;
+}
+
+.checkbox-drawing {
+    margin-right: 60px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+}

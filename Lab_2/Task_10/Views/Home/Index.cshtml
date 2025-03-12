@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Вибір інтересів";
+    var selectedValues = ViewData["SelectedValues"] as string[] ?? new string[] { "Спорт" };
+}
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+</head>
+<body>
+
+    <div class="container">
+        <h3>Виберіть ваші інтереси:</h3>
+        <form method="post">
+            <div class="interests-group">
+                <label class="interest-label label-sport">
+                    Спорт
+                    <input type="checkbox" name="interests" value="Спорт" class="checkbox-sport" @(selectedValues.Contains("Спорт") ? "checked" : "")>
+                </label>
+                <label class="interest-label label-travel">
+                    Мандрівки
+                    <input type="checkbox" name="interests" value="Мандрівки" class="checkbox-travel" @(selectedValues.Contains("Мандрівки") ? "checked" : "")>
+                </label>
+                <label class="interest-label label-crafting">
+                    Майстрування
+                    <input type="checkbox" name="interests" value="Майстрування" class="checkbox-crafting" @(selectedValues.Contains("Майстрування") ? "checked" : "")>
+                </label>
+                <label class="interest-label label-drawing">
+                    Малювання
+                    <input type="checkbox" name="interests" value="Малювання" class="checkbox-drawing" @(selectedValues.Contains("Малювання") ? "checked" : "")>
+                </label>
+            </div>
+
+            <div class="btn-container">
+                <button type="submit" class="btn btn-primary">Вибрати</button>
+                <button type="button" class="btn btn-secondary" onclick="resetSelection()">Відмовитися</button>
+            </div>
+        </form>
+
+        <div id="selected-message" class="alert alert-success mt-3" style="display: @(ViewData["SelectedInterests"] != null ? "block" : "none")">
+            <strong>Ви обрали:</strong> <span id="selected-text">@ViewData["SelectedInterests"]</span>
+        </div>
+    </div>
+
+    <script>
+        function resetSelection() {
+            document.querySelectorAll('input[name="interests"]').forEach(checkbox => {
+                checkbox.checked = (checkbox.value === "Спорт");
+            });
+
+            document.getElementById('selected-message').style.display = 'none'; // Приховуємо блок "Ви обрали"
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

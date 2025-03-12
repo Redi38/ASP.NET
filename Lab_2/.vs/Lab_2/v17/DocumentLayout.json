@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\niksh\\source\\repos\\Lab_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{869C2092-A3FE-4941-A931-1C492BFC3277}|Task_16\\Task_16.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_16\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869C2092-A3FE-4941-A931-1C492BFC3277}|Task_16\\Task_16.csproj|solutionrelative:task_16\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6F1A28B-9FE6-4F94-8C26-DEF8153B8E55}|Task_12\\Task_12.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_12\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6F1A28B-9FE6-4F94-8C26-DEF8153B8E55}|Task_12\\Task_12.csproj|solutionrelative:task_12\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B309363-0578-4BCC-865D-2698A916AD23}|Task_8\\Task_8.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B309363-0578-4BCC-865D-2698A916AD23}|Task_8\\Task_8.csproj|solutionrelative:task_8\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7A0896F-DE2C-4710-8FAB-5B8AC863329A}|Task_4\\Task_4.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7A0896F-DE2C-4710-8FAB-5B8AC863329A}|Task_4\\Task_4.csproj|solutionrelative:task_4\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F8ACDC-753A-4000-9529-B570BF7984FC}|Task_15\\Task_15.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_15\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59F8ACDC-753A-4000-9529-B570BF7984FC}|Task_15\\Task_15.csproj|solutionrelative:task_15\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{241B7BD2-8636-4F44-BEA5-CBDF8B9899EC}|Task_11\\Task_11.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_11\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{241B7BD2-8636-4F44-BEA5-CBDF8B9899EC}|Task_11\\Task_11.csproj|solutionrelative:task_11\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2522FDF5-42E3-4B12-BC25-E71411A8B4D2}|Task_7\\Task_7.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2522FDF5-42E3-4B12-BC25-E71411A8B4D2}|Task_7\\Task_7.csproj|solutionrelative:task_7\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BD5FAE5-A803-40F7-A847-17A1F072ED60}|Task_3\\Task_3.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD5FAE5-A803-40F7-A847-17A1F072ED60}|Task_3\\Task_3.csproj|solutionrelative:task_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A412E6E9-71AE-4C32-A0C2-13D3A25B4E7F}|Task_14\\Task_14.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_14\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A412E6E9-71AE-4C32-A0C2-13D3A25B4E7F}|Task_14\\Task_14.csproj|solutionrelative:task_14\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1B05A3-26CF-44AA-AD71-FFD0F8D3FB10}|Task_10\\Task_10.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_10\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1B05A3-26CF-44AA-AD71-FFD0F8D3FB10}|Task_10\\Task_10.csproj|solutionrelative:task_10\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DC15E26-5FE6-4B45-85CF-4F49C627A332}|Task_6\\Task_6.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DC15E26-5FE6-4B45-85CF-4F49C627A332}|Task_6\\Task_6.csproj|solutionrelative:task_6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668F26FC-06A6-48C0-AF94-8530D2F7EA6F}|Task_2\\Task_2.csproj|c:\\users\\niksh\\source\\repos\\lab_2\\task_2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668F26FC-06A6-48C0-AF94-8530D2F7EA6F}|Task_2\\Task_2.csproj|solutionrelative:task_2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_16\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_16\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_16\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_16\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:11:17.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_12\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_12\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_12\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_12\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:10:55.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_8\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_8\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_8\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_8\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:10:42.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_4\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_4\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_4\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_4\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:10:25.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_15\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_15\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_15\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_15\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:07:56.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_11\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_11\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_11\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_11\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:07:43.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_7\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_7\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_7\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_7\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:05:49.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:05:34.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_14\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_14\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_14\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_14\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:52:44.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_10\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_10\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_10\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_10\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:52:22.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_6\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_6\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_6\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_6\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:51:58.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_2\\Task_2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:51:36.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
