@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Анкета відвідувача";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+
+<div class="container mt-5">
+    <h2>Анкета відвідувача ресторану</h2>
+    <form method="post">
+        <div class="mb-2">
+            <label class="form-label">Ім'я</label>
+            <input type="text" name="name" class="form-control" value="@ViewData["Name"]">
+        </div>
+        <div class="mb-2">
+            <label class="form-label">Телефон</label>
+            <input type="text" name="phone" class="form-control" value="@ViewData["Phone"]">
+        </div>
+        <div class="mb-2">
+            <label class="form-label">Пошта</label>
+            <input type="email" name="email" class="form-control" value="@ViewData["Email"]">
+        </div>
+        <div class="mb-2">
+            <label class="form-label">Дата відвідування</label>
+            <input type="date" name="visitDate" class="form-control" value="@ViewData["VisitDate"]">
+        </div>
+        <div class="mb-2">
+            <label class="form-label">Вік</label>
+            <input type="number" name="age" class="form-control" value="@ViewData["Age"]">
+        </div>
+        <div class="mb-2">
+            <label class="form-label">Улюблена кухня</label>
+            <select name="favoriteCuisine" class="form-select">
+                <option selected>@ViewData["FavoriteCuisine"]</option>
+                <option>Грецька</option>
+                <option>Італійська</option>
+                <option>Французька</option>
+                <option>Українська</option>
+            </select>
+        </div>
+        <div class="mb-2">
+            <label class="form-label">Які страви ви б хотіли бачити в меню?</label>
+            <textarea name="desiredDishes" class="form-control">@ViewData["DesiredDishes"]</textarea>
+        </div>
+        <fieldset class="mb-3">
+            <label class="form-label">Як ви дізналися про наш ресторан?</label>
+            <div>
+                <input class="form-check-input" type="radio" name="reason" value="Близько" @(ViewData["ReasonForChoosing"]?.ToString() == "Близько" ? "checked" : "")>
+                <label class="form-check-label">Недалеко від роботи/дому</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="radio" name="reason" value="Реклама" @(ViewData["ReasonForChoosing"]?.ToString() == "Реклама" ? "checked" : "")>
+                <label class="form-check-label">Побачив рекламу</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="radio" name="reason" value="Порада" @(ViewData["ReasonForChoosing"]?.ToString() == "Порада" ? "checked" : "")>
+                <label class="form-check-label">Порадили знайомі</label>
+            </div>
+            <div>
+                <input class="form-check-input" type="radio" name="reason" value="Соцмережі" @(ViewData["ReasonForChoosing"]?.ToString() == "Соцмережі" ? "checked" : "")>
+                <label class="form-check-label">Знайшов у соцмережах</label>
+            </div>
+        </fieldset>
+        <fieldset class="mb-3">
+            <legend>Чи будете рекомендувати?</legend>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="recommendation" value="Так" @(ViewData["Recommendation"]?.ToString() == "Так" ? "checked" : "")>
+                <label class="form-check-label">Так</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="recommendation" value="Ні" @(ViewData["Recommendation"]?.ToString() == "Ні" ? "checked" : "")>
+                <label class="form-check-label">Ні</label>
+            </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Відіслати</button>
+        <button type="reset" class="btn btn-secondary">Очистити</button>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Convert.ToString(ViewData["Name"])))
+    {
+        <h3 class="mt-4">Результати</h3>
+        <ul>
+            <li><b>Ім'я:</b> @ViewData["Name"]</li>
+            <li><b>Телефон:</b> @ViewData["Phone"]</li>
+            <li><b>Пошта:</b> @ViewData["Email"]</li>
+            <li><b>Дата відвідування:</b> @ViewData["VisitDate"]</li>
+            <li><b>Вік:</b> @ViewData["Age"]</li>
+            <li><b>Улюблена кухня:</b> @ViewData["FavoriteCuisine"]</li>
+            <li><b>Страви в меню:</b> @ViewData["DesiredDishes"]</li>
+            <li><b>Причина вибору:</b> @ViewData["ReasonForChoosing"]</li>
+            <li><b>Рекомендація:</b> @ViewData["Recommendation"]</li>
+        </ul>
+    }
+</div>
