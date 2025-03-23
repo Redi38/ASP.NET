@@ -1,0 +1,19 @@
+CREATE DATABASE company_db;
+USE company_db;
+
+CREATE TABLE employees (
+    e_id INT PRIMARY KEY AUTO_INCREMENT,
+    e_name VARCHAR(50),
+    e_salary INT,
+    e_age INT,
+    e_gender VARCHAR(10),
+    e_dept VARCHAR(50)
+);
+
+INSERT INTO employees (e_name, e_salary, e_age, e_gender, e_dept) VALUES
+('Sam', 95000, 45, 'Male', 'Operations'),
+('Bob', 80000, 21, 'Male', 'Support'),
+('Anne', 125000, 25, 'Female', 'Analytics'),
+('Julia', 73000, 30, 'Female', 'Analytics'),
+('Matt', 159000, 33, 'Male', 'Sales'),
+('Jeff', 112000, 27, 'Male', 'Operations');

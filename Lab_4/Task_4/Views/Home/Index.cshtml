@@ -1,0 +1,106 @@
+﻿@model Task_4.Models.SurveyModel
+@{
+    ViewData["Title"] = "Анкета відвідувача";
+
+    if (Context.Request.Method == "POST" && Context.Request.HasFormContentType)
+    {
+        Model.Name = Context.Request.Form["Name"].ToString();
+        Model.Phone = Context.Request.Form["Phone"].ToString();
+        Model.Email = Context.Request.Form["Email"].ToString();
+        Model.VisitDate = Context.Request.Form["VisitDate"].ToString();
+        Model.Age = int.TryParse(Context.Request.Form["Age"], out int parsedAge) ? parsedAge : 0;
+        Model.FavoriteCuisine = Context.Request.Form["FavoriteCuisine"].ToString();
+        Model.DesiredDishes = Context.Request.Form["DesiredDishes"].ToString();
+        Model.ReasonForChoosing = Context.Request.Form["ReasonForChoosing"].ToString();
+        Model.Recommendation = Context.Request.Form["Recommendation"].ToString();
+    }
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+
+<div class="container mt-5">  
+    <h2>Анкета відвідувача ресторану</h2>  
+    <form method="post">  
+        <div class="mb-2">  
+            <label class="form-label">Ім'я</label>  
+            <input type="text" name="Name" class="form-control" value="@Model.Name">  
+        </div>  
+        <div class="mb-2">  
+            <label class="form-label">Телефон</label>  
+            <input type="text" name="Phone" class="form-control" value="@Model.Phone">  
+        </div>  
+        <div class="mb-2">  
+            <label class="form-label">Пошта</label>  
+            <input type="email" name="Email" class="form-control" value="@Model.Email">  
+        </div>  
+        <div class="mb-2">  
+            <label class="form-label">Дата відвідування</label>  
+            <input type="date" name="VisitDate" class="form-control" value="@Model.VisitDate">  
+        </div>  
+        <div class="mb-2">  
+            <label class="form-label">Вік</label>  
+            <input type="number" name="Age" class="form-control" value="@Model.Age">  
+        </div>  
+        <div class="mb-2">  
+            <label class="form-label">Улюблена кухня</label>  
+            <select name="FavoriteCuisine" class="form-select">  
+                <option value="Грецька" selected="@(Model.FavoriteCuisine == "Грецька")">Грецька</option>
+                <option value="Італійська" selected="@(Model.FavoriteCuisine == "Італійська")">Італійська</option>
+                <option value="Французька" selected="@(Model.FavoriteCuisine == "Французька")">Французька</option>
+                <option value="Українська" selected="@(Model.FavoriteCuisine == "Українська")">Українська</option>
+            </select>  
+        </div>  
+        <div class="mb-2">  
+            <label class="form-label">Які страви ви б хотіли бачити в меню?</label>  
+            <textarea name="DesiredDishes" class="form-control">@Model.DesiredDishes</textarea>  
+        </div>  
+        <fieldset class="mb-3">  
+            <label class="form-label">Як ви дізналися про наш ресторан?</label>  
+            <div>  
+                <input class="form-check-input" type="radio" name="ReasonForChoosing" value="Близько" @(Model.ReasonForChoosing == "Близько" ? "checked" : "")>  
+                <label class="form-check-label">Недалеко від роботи/дому</label>  
+            </div>  
+            <div>  
+                <input class="form-check-input" type="radio" name="ReasonForChoosing" value="Реклама" @(Model.ReasonForChoosing == "Реклама" ? "checked" : "")>  
+                <label class="form-check-label">Побачив рекламу</label>  
+            </div>  
+            <div>  
+                <input class="form-check-input" type="radio" name="ReasonForChoosing" value="Порада" @(Model.ReasonForChoosing == "Порада" ? "checked" : "")>  
+                <label class="form-check-label">Порадили знайомі</label>  
+            </div>  
+            <div>  
+                <input class="form-check-input" type="radio" name="ReasonForChoosing" value="Соцмережі" @(Model.ReasonForChoosing == "Соцмережі" ? "checked" : "")>  
+                <label class="form-check-label">Знайшов у соцмережах</label>  
+            </div>  
+        </fieldset>  
+        <fieldset class="mb-3">  
+            <label class="form-label">Чи будете рекомендувати?</label>
+            <div class="form-check">  
+                <input class="form-check-input" type="radio" name="Recommendation" value="Так" @(Model.Recommendation == "Так" ? "checked" : "")>  
+                <label class="form-check-label">Так</label>  
+            </div>  
+            <div class="form-check">  
+                <input class="form-check-input" type="radio" name="Recommendation" value="Ні" @(Model.Recommendation == "Ні" ? "checked" : "")>  
+                <label class="form-check-label">Ні</label>  
+            </div>  
+        </fieldset>  
+        <button type="submit" class="btn btn-primary">Відіслати</button>  
+        <button type="reset" class="btn btn-secondary">Очистити</button>  
+    </form>  
+
+    @if (!string.IsNullOrEmpty(Model.Name))  
+    {  
+        <h3 class="mt-4">Результати</h3>  
+        <ul>  
+            <li><b>Ім'я:</b> @Model.Name</li>  
+            <li><b>Телефон:</b> @Model.Phone</li>  
+            <li><b>Пошта:</b> @Model.Email</li>  
+            <li><b>Дата відвідування:</b> @Model.VisitDate</li>  
+            <li><b>Вік:</b> @Model.Age</li>  
+            <li><b>Улюблена кухня:</b> @Model.FavoriteCuisine</li>  
+            <li><b>Страви в меню:</b> @Model.DesiredDishes</li>  
+            <li><b>Причина вибору:</b> @Model.ReasonForChoosing</li>  
+            <li><b>Рекомендація:</b> @Model.Recommendation</li>  
+        </ul>  
+    }  
+</div>

@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Обробка рядка";
+    var inputText = "";
+    var repeatCountStr = "";
+    var repeatCount = 0;
+    var processedText = "";
+    var errorMessage = "";
+
+    if (Context.Request.Method == "POST")
+    {
+        inputText = Context.Request.Form["inputText"].ToString();
+        repeatCountStr = Context.Request.Form["repeatCount"].ToString();
+        repeatCount = int.TryParse(repeatCountStr, out int count) ? count : 0;
+
+        var words = inputText.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+        if (words.Length < 5)
+        {
+            errorMessage = "Ви ввели менше п'яти слів.";
+        }
+        else if (repeatCount > 0)
+        {
+            var lastWord = words[words.Length - 1];
+            processedText = string.Join(' ', words.Take(words.Length - 1)) + " <strong>" + lastWord + "</strong>";
+            processedText = string.Join("<br>", Enumerable.Repeat(processedText, repeatCount));
+        }
+    }
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container mt-5">
+    <h2>Обробка рядка</h2>
+    <form method="post" asp-action="IndexPost">
+        <div class="mb-3">
+            <label class="form-label">Введіть рядок (не менше 5 слів)</label>
+            <input type="text" name="inputText" class="form-control" value="@inputText">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Кількість повторень</label>
+            <input type="number" name="repeatCount" class="form-control" value="@repeatCountStr">
+        </div>
+        <button type="submit" class="btn btn-primary">Обробити</button>
+    </form>
+
+    @if (!string.IsNullOrEmpty(errorMessage))
+    {
+        <div class="alert alert-danger mt-3">@errorMessage</div>
+    }
+
+    @if (!string.IsNullOrEmpty(processedText))
+    {
+        <h3 class="mt-4">Результат</h3>
+        <p>@Html.Raw(processedText)</p>
+    }
+</div>

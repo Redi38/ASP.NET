@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\niksh\\source\\repos\\Lab_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37C5C5B9-D40E-450C-A5C7-D8D5DB4DFE58}|Task_8\\Task_8.csproj|c:\\users\\niksh\\source\\repos\\lab_4\\task_8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37C5C5B9-D40E-450C-A5C7-D8D5DB4DFE58}|Task_8\\Task_8.csproj|solutionrelative:task_8\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_4\\Task_8\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task_8\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_4\\Task_8\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Task_8\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-23T18:26:50.787Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

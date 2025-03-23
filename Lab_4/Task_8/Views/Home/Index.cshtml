@@ -1,0 +1,45 @@
+﻿@model List<Employee>
+@{
+    ViewData["Title"] = "Список співробітників";
+    var departmentFilter = ViewData["DepartmentFilter"]?.ToString();
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container mt-4">
+    <h2 class="mb-3">Список співробітників</h2>
+
+    <!-- Фільтр -->
+    <form method="get" class="mb-3">
+        <label>Фільтр за відділом:</label>
+        <input type="text" name="departmentFilter" class="form-control" value="@departmentFilter">
+        <button type="submit" class="btn btn-primary mt-2">Застосувати</button>
+    </form>
+
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Ім'я</th>
+                <th>Зарплата</th>
+                <th>Вік</th>
+                <th>Стать</th>
+                <th>Відділ</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model.Where(e => string.IsNullOrEmpty(departmentFilter) || e.e_dept.Contains(departmentFilter)))
+            {
+                <tr>
+                    <td>@emp.e_id</td>
+                    <td>@emp.e_name</td>
+                    <td>@emp.e_salary</td>
+                    <td>@emp.e_age</td>
+                    <td>@emp.e_gender</td>
+                    <td>@emp.e_dept</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
