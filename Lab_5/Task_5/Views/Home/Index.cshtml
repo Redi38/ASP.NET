@@ -1,0 +1,60 @@
+﻿@model Task_5.Models.RegistrationSession
+
+@{
+    int? stepValue = ViewData["Step"] as int?;
+    int step = stepValue ?? 1;
+    string placeholder = "";
+    string label = "";
+    string buttonText = "Далі";
+
+    switch (step)
+    {
+        case 1:
+            label = "Введіть адресу:";
+            placeholder = "Адреса";
+            break;
+        case 2:
+            label = "Введіть пароль:";
+            placeholder = "Пароль";
+            break;
+        case 3:
+            label = "Введіть логін:";
+            placeholder = "Логін";
+            break;
+        case 4:
+            label = "Введіть електронну пошту:";
+            placeholder = "Email";
+            buttonText = "Завершити";
+            break;
+    }
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+
+<div class="container mt-5">
+    <h2>Реєстрація (Крок @step з 4)</h2>
+
+    @if (ViewData["Error"] != null)
+    {
+        <div class="alert alert-danger">@ViewData["Error"]</div>
+    }
+
+    <form method="post">
+        <input type="hidden" name="step" value="@step">
+
+        <div class="mb-3">
+            <label class="form-label">@label</label>
+
+            @if (step == 2)
+            {
+                <input type="password" name="input" class="form-control" placeholder="@placeholder" required>
+            }
+            else
+            {
+                <input type="text" name="input" class="form-control" placeholder="@placeholder" required>
+            }
+        </div>
+
+        <button type="submit" class="btn btn-primary">@buttonText</button>
+    </form>
+</div>  

@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Трикутник";
+    var sides = ViewBag.Sides as List<double> ?? new List<double>();
+    var maxSide = ViewBag.MaxSide as double?;
+}
+<div class="container">
+    <h2>Введіть сторону трикутника</h2>
+
+    @if (sides.Count < 3)
+    {
+        <form method="get" action="/Home/Index">
+            <input type="number" name="side" step="0.01" required />
+            <button type="submit">Додати сторону</button>
+        </form>
+    }
+
+    <h3>Введені сторони:</h3>
+    <ul>
+        @foreach (var side in sides)
+        {
+            <li>@side</li>
+        }
+    </ul>
+
+    @if (maxSide.HasValue)
+    {
+        <h2>Максимальна сторона: @maxSide</h2>
+        <form method="get" action="/Home/Index">
+            <input type="hidden" name="reset" value="true" />
+            <button type="submit">Скинути</button>
+        </form>
+    }
+</div>

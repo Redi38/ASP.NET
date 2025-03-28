@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Введення пароля";
+}
+
+<h2>Введіть пароль</h2>
+
+@if (ViewData["Error"] != null)
+{
+    <p class="text-danger">@ViewData["Error"]</p>
+}
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Пароль</label>
+        <input type="password" name="password" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Пошук акаунту</button>
+</form>

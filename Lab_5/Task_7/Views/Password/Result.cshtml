@@ -1,0 +1,28 @@
+﻿@model Task_7.Models.User
+@{
+    ViewData["Title"] = "Результат пошуку";
+}
+
+<h2>Інформація про акаунт</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Логін</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in users)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Login</td>
+                <td>@user.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Index", "Address")" class="btn btn-secondary">Повернутись</a>

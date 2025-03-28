@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\niksh\\source\\repos\\Lab_5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08431A97-CD60-4DAB-A7D9-A9441FF38E55}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_5\\task_9\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08431A97-CD60-4DAB-A7D9-A9441FF38E55}|Task_9\\Task_9.csproj|solutionrelative:task_9\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A393FAE-531D-4D31-B8FF-ED7F420497F1}|Task_6\\Task_6.csproj|c:\\users\\niksh\\source\\repos\\lab_5\\task_6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A393FAE-531D-4D31-B8FF-ED7F420497F1}|Task_6\\Task_6.csproj|solutionrelative:task_6\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F8055F2-768F-4260-9C74-A6CAD814CA6B}|Task_3\\Task_3.csproj|c:\\users\\niksh\\source\\repos\\lab_5\\task_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F8055F2-768F-4260-9C74-A6CAD814CA6B}|Task_3\\Task_3.csproj|solutionrelative:task_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_5\\Task_9\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_9\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_5\\Task_9\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_9\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAADEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:23:27.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_5\\Task_6\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_6\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_5\\Task_6\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_6\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:23:13.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_5\\Task_3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_5\\Task_3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T18:20:43.007Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

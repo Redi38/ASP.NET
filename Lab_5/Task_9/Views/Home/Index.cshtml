@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Пошук акаунту";
+    int step = (ViewData["Step"] as int?) ?? 1;
+    var users = ViewData["Users"] as List<Task_9.Models.User>;
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+
+<div class="container mt-5">
+    <h2>Пошук акаунту</h2>
+
+    @if (!string.IsNullOrEmpty(ViewData["Error"] as string))
+    {
+        <div class="alert alert-danger">@ViewData["Error"]</div>
+    }
+
+    <form method="post" asp-action="SearchAccount">
+        @if (step == 1)
+        {
+            <div class="mb-3">
+                <label class="form-label">Адреса</label>
+                <input type="text" name="address" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Далі</button>
+        }
+        else if (step == 2)
+        {
+            <div class="mb-3">
+                <label class="form-label">Пароль</label>
+                <input type="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-success">Знайти</button>
+        }
+    </form>
+
+    @if (users != null && users.Any())
+    {
+        <h3 class="mt-4">Знайдені акаунти</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Логін</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in users)
+                {
+                    <tr>
+                        <td>@user.Id</td>
+                        <td>@user.Login</td>
+                        <td>@user.Email</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
