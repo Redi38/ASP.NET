@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\niksh\\source\\repos\\Lab_6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\niksh\\AppData\\Local\\Temp\\5x0yoebc..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\models\\enterpriseformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\models\\enterpriseformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\models\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\models\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\models\\agriculturalenterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\models\\agriculturalenterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|c:\\users\\niksh\\source\\repos\\lab_6\\task_9\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{72CF02D2-8E82-45E9-9EE7-7C8BE13F1F69}|Task_9\\Task_9.csproj|solutionrelative:task_9\\script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\niksh\\AppData\\Local\\Temp\\5x0yoebc..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\niksh\\AppData\\Local\\Temp\\5x0yoebc..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\niksh\\AppData\\Local\\Temp\\5x0yoebc..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\5x0yoebc..sql",
+              "ToolTip": "SQLQuery2.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-01T15:03:00.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_9\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_9\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T15:02:02.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Task_9\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Task_9\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T15:01:31.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AgriculturalEnterprise.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Models\\AgriculturalEnterprise.cs",
+              "RelativeDocumentMoniker": "Task_9\\Models\\AgriculturalEnterprise.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Models\\AgriculturalEnterprise.cs",
+              "RelativeToolTip": "Task_9\\Models\\AgriculturalEnterprise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T15:00:16.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Task_9\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Task_9\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T15:00:06.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Models\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Task_9\\Models\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Models\\DbInitializer.cs",
+              "RelativeToolTip": "Task_9\\Models\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T14:59:42.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnterpriseFormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Models\\EnterpriseFormViewModel.cs",
+              "RelativeDocumentMoniker": "Task_9\\Models\\EnterpriseFormViewModel.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Models\\EnterpriseFormViewModel.cs",
+              "RelativeToolTip": "Task_9\\Models\\EnterpriseFormViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T14:59:18.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task_9\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Task_9\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAMwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T14:58:10.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "script.sql ",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\script.sql",
+              "RelativeDocumentMoniker": "Task_9\\script.sql",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_6\\Task_9\\script.sql",
+              "RelativeToolTip": "Task_9\\script.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-01T14:41:31.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

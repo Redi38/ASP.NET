@@ -1,4 +1,5 @@
 ﻿@model Task_7.Models.User
+
 @{
     ViewData["Title"] = "Результат пошуку";
 }
@@ -14,15 +15,12 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var user in users)
-        {
-            <tr>
-                <td>@user.Id</td>
-                <td>@user.Login</td>
-                <td>@user.Email</td>
-            </tr>
-        }
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Login</td>
+            <td>@Model.Email</td>
+        </tr>
     </tbody>
 </table>
 
-<a href="@Url.Action("Index", "Address")" class="btn btn-secondary">Повернутись</a>
+<a href="@Url.Action("Index", "Address")" class="btn btn-secondary">Повернутись</a>  

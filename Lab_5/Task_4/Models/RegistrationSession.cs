@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Task_5.Models
+namespace Task_4.Models
 {
     public class RegistrationSession
     {
@@ -24,13 +24,13 @@ namespace Task_5.Models
             var data = session.GetString(SessionKey);
             if (string.IsNullOrEmpty(data))
             {
-                throw new InvalidOperationException("No session data found.");
+                throw new InvalidOperationException("Дані про сесію не знайдено.");
             }
 
             var sessionData = JsonConvert.DeserializeObject<RegistrationSession>(data);
             if (sessionData == null)
             {
-                throw new InvalidOperationException("Deserialized session data is null.");
+                throw new InvalidOperationException("Дані десеріалізованої сесії дорівнюють нулю.");
             }
 
             return sessionData;

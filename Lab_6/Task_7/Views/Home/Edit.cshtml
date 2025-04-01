@@ -1,0 +1,42 @@
+﻿@model Task_7.Models.AgriculturalEnterprise
+
+@{
+    ViewData["Title"] = "Редагування підприємства";
+}
+
+<h2 class="text-center">Редагувати підприємство</h2>
+
+<div class="d-flex justify-content-center">
+    <form method="post" class="mt-4 p-4 bg-light shadow rounded" style="width: 400px;">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label class="form-label">Назва:</label>
+            <input asp-for="Name" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Вид власності:</label>
+            <select asp-for="OwnershipType" class="form-select">
+                <option value="Д">Державна</option>
+                <option value="П">Приватна</option>
+                <option value="К">Кооперативна</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Площа землі (га):</label>
+            <input asp-for="LandArea" type="number" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Кількість працівників:</label>
+            <input asp-for="EmployeesCount" type="number" class="form-control" required />
+        </div>
+
+        <div class="d-grid">
+            <button type="submit" class="btn btn-success">Зберегти зміни</button>
+            <a asp-action="Index" class="btn btn-secondary mt-2">Скасувати</a>
+        </div>
+    </form>
+</div>
