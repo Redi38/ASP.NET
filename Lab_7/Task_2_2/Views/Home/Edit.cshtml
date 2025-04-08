@@ -1,0 +1,53 @@
+﻿@model Task_2_2.Models.AgriculturalEnterprise
+
+@{
+    ViewData["Title"] = "Редагування підприємства";
+}
+
+<h2 class="text-center">Редагувати підприємство</h2>
+
+<div class="d-flex justify-content-center">
+    <form method="post" class="mt-4 p-4 bg-light shadow rounded" style="width: 400px;">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label class="form-label">Назва:</label>
+            <span asp-validation-for="Name" class="text-danger small d-block"></span>
+            <input asp-for="Name" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Вид власності:</label>
+            <span asp-validation-for="OwnershipType" class="text-danger small d-block"></span>
+            <select asp-for="OwnershipType" class="form-select">
+                <option value="">-- Оберіть --</option>
+                <option value="Д">Державна</option>
+                <option value="П">Приватна</option>
+                <option value="К">Кооперативна</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Площа землі (га):</label>
+            <span asp-validation-for="LandArea" class="text-danger small d-block"></span>
+            <input asp-for="LandArea" type="number" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Кількість працівників:</label>
+            <span asp-validation-for="EmployeesCount" class="text-danger small d-block"></span>
+            <input asp-for="EmployeesCount" type="number" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Тип продукції:</label>
+            <span asp-validation-for="ProductType" class="text-danger small d-block"></span>
+            <input asp-for="ProductType" class="form-control" />
+        </div>
+
+        <div class="d-grid">
+            <button type="submit" class="btn btn-success">Зберегти зміни</button>
+            <a asp-action="Index" class="btn btn-secondary mt-2">Скасувати</a>
+        </div>
+    </form>
+</div>

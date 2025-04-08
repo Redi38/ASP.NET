@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\niksh\\source\\repos\\Lab_7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{351EDB06-95C7-42A2-B546-03D74BF0EA1B}|Task_1\\Task_1.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_1\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{351EDB06-95C7-42A2-B546-03D74BF0EA1B}|Task_1\\Task_1.csproj|solutionrelative:task_1\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351EDB06-95C7-42A2-B546-03D74BF0EA1B}|Task_1\\Task_1.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{351EDB06-95C7-42A2-B546-03D74BF0EA1B}|Task_1\\Task_1.csproj|solutionrelative:task_1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4648EC9E-397B-4CDE-BABA-A1B2EEF550B1}|Task_1_2\\Task_1_2.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_1_2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4648EC9E-397B-4CDE-BABA-A1B2EEF550B1}|Task_1_2\\Task_1_2.csproj|solutionrelative:task_1_2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351EDB06-95C7-42A2-B546-03D74BF0EA1B}|Task_1\\Task_1.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{351EDB06-95C7-42A2-B546-03D74BF0EA1B}|Task_1\\Task_1.csproj|solutionrelative:task_1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{351EDB06-95C7-42A2-B546-03D74BF0EA1B}|Task_1\\Task_1.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_1\\task_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{351EDB06-95C7-42A2-B546-03D74BF0EA1B}|Task_1\\Task_1.csproj|solutionrelative:task_1\\task_1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4648EC9E-397B-4CDE-BABA-A1B2EEF550B1}|Task_1_2\\Task_1_2.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_1_2\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4648EC9E-397B-4CDE-BABA-A1B2EEF550B1}|Task_1_2\\Task_1_2.csproj|solutionrelative:task_1_2\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9723B11-B804-4055-AA46-C090A13852E5}|Task_2_2\\Task_2_2.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_2_2\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9723B11-B804-4055-AA46-C090A13852E5}|Task_2_2\\Task_2_2.csproj|solutionrelative:task_2_2\\views\\home\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9723B11-B804-4055-AA46-C090A13852E5}|Task_2_2\\Task_2_2.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_2_2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9723B11-B804-4055-AA46-C090A13852E5}|Task_2_2\\Task_2_2.csproj|solutionrelative:task_2_2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4648EC9E-397B-4CDE-BABA-A1B2EEF550B1}|Task_1_2\\Task_1_2.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_1_2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4648EC9E-397B-4CDE-BABA-A1B2EEF550B1}|Task_1_2\\Task_1_2.csproj|solutionrelative:task_1_2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9723B11-B804-4055-AA46-C090A13852E5}|Task_2_2\\Task_2_2.csproj|c:\\users\\niksh\\source\\repos\\lab_7\\task_2_2\\models\\agriculturalenterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9723B11-B804-4055-AA46-C090A13852E5}|Task_2_2\\Task_2_2.csproj|solutionrelative:task_2_2\\models\\agriculturalenterprise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Task_1\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Task_1\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T08:24:40.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task_1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Task_1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAwFQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T08:24:33.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1_2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_1_2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1_2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_1_2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:23:45.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:22:41.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Task_1",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1\\Task_1.csproj",
+              "RelativeDocumentMoniker": "Task_1\\Task_1.csproj",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1\\Task_1.csproj",
+              "RelativeToolTip": "Task_1\\Task_1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T08:22:39.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1_2\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Task_1_2\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1_2\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Task_1_2\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T08:02:31.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1_2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task_1_2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_1_2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Task_1_2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T08:02:30.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_2_2\\Views\\Home\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Task_2_2\\Views\\Home\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_2_2\\Views\\Home\\Edit.cshtml",
+              "RelativeToolTip": "Task_2_2\\Views\\Home\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T08:02:24.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_2_2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task_2_2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_2_2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Task_2_2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T08:02:24.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AgriculturalEnterprise.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_2_2\\Models\\AgriculturalEnterprise.cs",
+              "RelativeDocumentMoniker": "Task_2_2\\Models\\AgriculturalEnterprise.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_7\\Task_2_2\\Models\\AgriculturalEnterprise.cs",
+              "RelativeToolTip": "Task_2_2\\Models\\AgriculturalEnterprise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:01:43.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
