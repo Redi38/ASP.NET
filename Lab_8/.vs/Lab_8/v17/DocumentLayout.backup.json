@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\niksh\\source\\repos\\Lab_8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EDB965F-7A17-418A-8695-96BE891A486D}|Task_3\\Task_3.csproj|c:\\users\\niksh\\source\\repos\\lab_8\\task_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EDB965F-7A17-418A-8695-96BE891A486D}|Task_3\\Task_3.csproj|solutionrelative:task_3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70632B77-9045-462E-A3AA-0A02EEC4A0BB}|Task_2\\Task_2.csproj|c:\\users\\niksh\\source\\repos\\lab_8\\task_2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70632B77-9045-462E-A3AA-0A02EEC4A0BB}|Task_2\\Task_2.csproj|solutionrelative:task_2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_8\\Task_2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_8\\Task_2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAawCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T09:16:17.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\niksh\\source\\repos\\Lab_8\\Task_3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Task_3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\niksh\\source\\repos\\Lab_8\\Task_3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Task_3\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T08:54:10.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
