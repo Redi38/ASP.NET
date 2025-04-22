@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Адмін Панель";
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+<div class="container mt-5" style="max-width: 960px;">
+    <div class="bg-light bg-opacity-75 p-4 rounded shadow mb-5">
+        <h3>Користувачі</h3>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Ім'я</th>
+                    <th>Оцінка</th>
+                    <th>Спроб</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var u in ViewBag.Users)
+                {
+                    <tr>
+                        <td>@u.UserName</td>
+                        <td>@u.TestScore</td>
+                        <td>@u.TestAttempts</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="bg-light bg-opacity-75 p-4 rounded shadow mb-5">
+        <h3>Питання</h3>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>Питання</th>
+                    <th>Тип</th>
+                    <th>Дії</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var q in ViewBag.Questions)
+                {
+                    <tr>
+                        <td>@q.Question</td>
+                        <td>@q.Type</td>
+                        <td class="d-flex gap-2">
+                            <a asp-controller="Admin" asp-action="Edit" asp-route-id="@q.Id" class="btn btn-sm btn-warning">Змінити</a>
+                            <form asp-action="DeleteQuestion" method="post" class="d-inline">
+                                <input type="hidden" name="id" value="@q.Id" />
+                                <button class="btn btn-sm btn-danger">Видалити</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="bg-light bg-opacity-75 p-4 rounded shadow mb-5">
+        <h4>Додати нове питання</h4>
+        <form asp-action="AddQuestion" method="post">
+            <div class="mb-2">
+                <label>Текст:</label>
+                <input name="Question" class="form-control" required />
+            </div>
+            <div class="mb-2">
+                <label>Тип:</label>
+                <select name="Type" class="form-select">
+                    <option value="radio">Один варіант</option>
+                    <option value="checkbox">Кілька варіантів</option>
+                    <option value="text">Текст</option>
+                </select>
+            </div>
+            <div class="mb-2">
+                <label>Варіанти (через |):</label>
+                <input name="OptionsString" class="form-control" />
+            </div>
+            <div class="mb-2">
+                <label>Правильні індекси (через ,):</label>
+                <input name="CorrectIndexesString" class="form-control" />
+            </div>
+            <div class="mb-2">
+                <label>Правильна текстова відповідь:</label>
+                <input name="CorrectAnswerText" class="form-control" />
+            </div>
+            <button class="btn btn-success mt-2">Додати</button>
+        </form>
+    </div>
+
+    <div class="bg-light bg-opacity-75 p-4 rounded shadow">
+        <h4>Макс. кількість спроб: @ViewBag.MaxAttempts</h4>
+        <form asp-action="UpdateAttempts" method="post" class="d-flex align-items-center gap-3">
+            <input name="newLimit" type="number" class="form-control w-auto" value="@ViewBag.MaxAttempts" />
+            <button class="btn btn-primary">Оновити</button>
+        </form>
+    </div>
+
+    <div class="text-end mt-4">
+        <a href="/Home/Welcome" class="btn btn-secondary">Назад</a>
+    </div>
+</div>

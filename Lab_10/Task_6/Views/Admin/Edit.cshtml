@@ -1,0 +1,49 @@
+﻿@model Task_6.Models.TestQuestion
+@{
+    ViewData["Title"] = "Редагування питання";
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+<div class="container mt-5" style="max-width: 800px;">
+    <div class="bg-light bg-opacity-75 p-4 rounded shadow">
+        <h3>Редагування питання</h3>
+
+        <form asp-action="EditQuestion" method="post">
+            <input type="hidden" name="Id" value="@Model.Id" />
+
+            <div class="mb-2">
+                <label>Текст:</label>
+                <input name="Question" class="form-control" value="@Model.Question" />
+            </div>
+
+            <div class="mb-2">
+                <label>Тип:</label>
+                <select name="Type" class="form-select">
+                    <option value="radio" selected="@(Model.Type == "radio")">Один варіант</option>
+                    <option value="checkbox" selected="@(Model.Type == "checkbox")">Кілька варіантів</option>
+                    <option value="text" selected="@(Model.Type == "text")">Текст</option>
+                </select>
+            </div>
+
+            <div class="mb-2">
+                <label>Варіанти (через |):</label>
+                <input name="OptionsString" class="form-control" value="@string.Join(" | ", Model.Options)" />
+            </div>
+
+            <div class="mb-2">
+                <label>Правильні індекси (через ,):</label>
+                <input name="CorrectIndexesString" class="form-control" value="@string.Join(",", Model.CorrectIndexes)" />
+            </div>
+
+            <div class="mb-2">
+                <label>Правильна текстова відповідь:</label>
+                <input name="CorrectAnswerText" class="form-control" value="@Model.CorrectAnswerText" />
+            </div>
+
+            <div class="d-flex justify-content-between mt-3">
+                <a href="/Admin/Panel" class="btn btn-secondary">Назад</a>
+                <button class="btn btn-primary">Зберегти</button>
+            </div>
+        </form>
+    </div>
+</div>

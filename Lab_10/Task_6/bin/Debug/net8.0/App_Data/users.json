@@ -1,0 +1,1 @@
+[{"Id":0,"UserName":"User22","Password":"user22password#","Email":"user22mail11@gmail.com","BirthDate":"1997-03-21T00:00:00","TestScore":100,"TestAttempts":5,"IsAdmin":true},{"Id":0,"UserName":"User23","Password":"user22password@","Email":"user23@gmail.com","BirthDate":"1998-05-21T00:00:00","TestScore":60,"TestAttempts":2,"IsAdmin":false}]
